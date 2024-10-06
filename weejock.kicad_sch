@@ -168,6 +168,151 @@
 				)
 			)
 		)
+		(symbol "PG1350_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PG1350"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Kailh low-profile key switch, normally-open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PG1350_1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Seeed_Studio_XIAO_Series:Seeed Studio XIAO nRF52840"
 			(pin_names
 				(offset 1.016)
@@ -3406,7 +3551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -3492,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 88.9 68.58 0)
 			(effects
 				(font
@@ -3560,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 50.8 87.63 0)
 			(effects
 				(font
@@ -3630,7 +3775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -3716,7 +3861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 69.85 68.58 0)
 			(effects
 				(font
@@ -3852,7 +3997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 39.37 0)
 			(effects
 				(font
@@ -3938,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 134.62 99.06 0)
 			(effects
 				(font
@@ -4008,7 +4153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 77.47 0)
 			(effects
 				(font
@@ -4096,7 +4241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -4182,7 +4327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -4252,7 +4397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 190.5 107.95 0)
 			(effects
 				(font
@@ -4322,7 +4467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 96.52 0)
 			(effects
 				(font
@@ -4410,7 +4555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 95.25 39.37 0)
 			(effects
 				(font
@@ -4498,7 +4643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 115.57 0)
 			(effects
 				(font
@@ -4584,7 +4729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 50.8 106.68 0)
 			(effects
 				(font
@@ -4654,7 +4799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -4740,7 +4885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 69.85 49.53 0)
 			(effects
 				(font
@@ -4808,7 +4953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -4878,7 +5023,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 96.52 0)
 			(effects
 				(font
@@ -4964,7 +5109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 69.85 30.48 0)
 			(effects
 				(font
@@ -5098,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -5168,7 +5313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.15 96.52 0)
 			(effects
 				(font
@@ -5254,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 50.8 30.48 0)
 			(effects
 				(font
@@ -5324,7 +5469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -5412,7 +5557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.15 58.42 0)
 			(effects
 				(font
@@ -5498,7 +5643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 31.75 68.58 0)
 			(effects
 				(font
@@ -5541,6 +5686,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PG1350_1")
 		(lib_id "weejock_keyboard_parts:PG1350")
 		(at 31.75 35.56 0)
 		(unit 1)
@@ -5566,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -5636,7 +5782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 95.25 58.42 0)
 			(effects
 				(font
@@ -5722,7 +5868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -5792,7 +5938,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.15 77.47 0)
 			(effects
 				(font
@@ -5880,7 +6026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.15 115.57 0)
 			(effects
 				(font
@@ -5966,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 69.85 106.68 0)
 			(effects
 				(font
@@ -6036,7 +6182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 115.57 0)
 			(effects
 				(font
@@ -6122,7 +6268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 177.8 105.41 0)
 			(effects
 				(font
@@ -6195,7 +6341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 39.37 0)
 			(effects
 				(font
@@ -6281,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 69.85 87.63 0)
 			(effects
 				(font
@@ -6349,7 +6495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -6417,7 +6563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 31.75 106.68 0)
 			(effects
 				(font
@@ -6485,7 +6631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 88.9 30.48 0)
 			(effects
 				(font
@@ -6553,7 +6699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 31.75 87.63 0)
 			(effects
 				(font
@@ -6623,7 +6769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -6709,7 +6855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -6779,7 +6925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.15 39.37 0)
 			(effects
 				(font
