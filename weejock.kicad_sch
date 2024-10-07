@@ -3421,7 +3421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-nRF52840-Sense-14P-2.54-21X17.8MM"
+		(property "Footprint" "weejock_library:Seeed XIAO Simplified"
 			(at 147.32 45.72 0)
 			(effects
 				(font
