@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "c1ae838a-2b78-4867-b8ea-0c61b4d91b1b")
 	(paper "A4")
+	(title_block
+		(title "Wee Jock Grid Pad")
+		(date "2024-10-10")
+		(rev "v0.0.2")
+	)
 	(lib_symbols
 		(symbol "Device:D"
 			(pin_numbers hide)
@@ -152,151 +157,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PG1350_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PG1350"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Kailh low-profile key switch, normally-open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PG1350_1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1189,6 +1049,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "weejock_keyboard_parts:JST-PH2"
 			(pin_names
 				(offset 1.016) hide)
@@ -1411,6 +1367,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_fp_filters" "Choc_v1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "PG1350_0_1"
 				(circle
 					(center -2.032 0)
@@ -1558,6 +1523,18 @@
 		(uuid "5036a40e-3714-4762-8dfd-16227b20f0cb")
 	)
 	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "513d9f18-b75a-4a7b-af2f-bf5706e7d6d0")
+	)
+	(junction
+		(at 162.56 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5401cb69-4020-4c8f-bb5b-70ec706e421a")
+	)
+	(junction
 		(at 25.4 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1640,6 +1617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d20554cb-7c92-4f06-a07e-be4d029a28f5")
+	)
+	(junction
+		(at 184.15 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d72faf61-77cf-45ce-927f-035178889d17")
 	)
 	(junction
 		(at 82.55 92.71)
@@ -1815,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 104.14) (xy 184.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1556a6fe-f332-4a8b-8624-6e4f44e44f52")
+	)
+	(wire
+		(pts
 			(xy 25.4 54.61) (xy 26.67 54.61)
 		)
 		(stroke
@@ -1915,7 +1908,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 107.95) (xy 185.42 107.95)
+			(xy 182.88 107.95) (xy 184.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2125,6 +2118,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 104.14) (xy 184.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57223f92-f4be-4c9d-b795-f2e30614470d")
+	)
+	(wire
+		(pts
 			(xy 38.1 81.28) (xy 57.15 81.28)
 		)
 		(stroke
@@ -2172,6 +2175,16 @@
 			(type default)
 		)
 		(uuid "63b07bd6-9083-465f-bd2a-613e569e6086")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db5f66f-b789-44a1-87d7-975c78167a15")
 	)
 	(wire
 		(pts
@@ -2235,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 129.54 104.14)
+			(xy 124.46 104.14) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2252,6 +2265,16 @@
 			(type default)
 		)
 		(uuid "815edc41-e000-4b97-bf1d-75e348a83148")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81664802-9e50-4c03-bbb7-9ec481039e93")
 	)
 	(wire
 		(pts
@@ -2472,6 +2495,16 @@
 			(type default)
 		)
 		(uuid "b7b49542-c5fc-4342-adf9-5a44b0ae2e84")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb852073-8b0a-41a4-90f3-e2131e036e93")
 	)
 	(wire
 		(pts
@@ -2795,6 +2828,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 107.95) (xy 185.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2db2d1-e2e2-46a5-853d-e8ffd5878c89")
+	)
+	(wire
+		(pts
 			(xy 130.81 50.8) (xy 134.62 50.8)
 		)
 		(stroke
@@ -2878,36 +2921,6 @@
 			(justify left top)
 		)
 		(uuid "f3ccc276-1c12-4741-b231-0fac1b48cf33")
-	)
-	(text "Wee Jock Grid Pad"
-		(exclude_from_sim no)
-		(at 195.834 189.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1bdd5389-f7ef-426e-a42d-59ed6447427a")
-	)
-	(text "v0.0.1"
-		(exclude_from_sim no)
-		(at 271.526 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "832c9542-e8fc-4ea5-8ef2-96b68ec7b9a7")
-	)
-	(text "2024-10-06"
-		(exclude_from_sim no)
-		(at 213.106 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fec05d14-f492-4008-8b00-cf63a9fed563")
 	)
 	(global_label "RST"
 		(shape input)
@@ -3421,7 +3434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "weejock_library:Seeed XIAO Simplified"
+		(property "Footprint" "weejock_library:Castellated XIAO with BAT+ and RST"
 			(at 147.32 45.72 0)
 			(effects
 				(font
@@ -3637,7 +3650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 88.9 68.58 0)
 			(effects
 				(font
@@ -3705,7 +3718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 50.8 87.63 0)
 			(effects
 				(font
@@ -3861,7 +3874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 69.85 68.58 0)
 			(effects
 				(font
@@ -3977,7 +3990,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e6b59b7-89b9-4594-a316-ff99496c9d02")
 		(property "Reference" "D1"
 			(at 40.64 38.0999 90)
@@ -4327,7 +4339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -4397,7 +4409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 190.5 107.95 0)
 			(effects
 				(font
@@ -4729,7 +4741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 50.8 106.68 0)
 			(effects
 				(font
@@ -4766,6 +4778,73 @@
 			(project "weejock"
 				(path "/c1ae838a-2b78-4867-b8ea-0c61b4d91b1b"
 					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 162.56 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "472cb0e4-40e2-4626-9bfd-f3fb89d40f41")
+		(property "Reference" "#FLG03"
+			(at 164.465 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0a8fbd8-8c0c-4b65-8e43-a2199f43db66")
+		)
+		(instances
+			(project "weejock"
+				(path "/c1ae838a-2b78-4867-b8ea-0c61b4d91b1b"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4885,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 69.85 49.53 0)
 			(effects
 				(font
@@ -4953,7 +5032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -5109,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 69.85 30.48 0)
 			(effects
 				(font
@@ -5243,7 +5322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -5399,7 +5478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 50.8 30.48 0)
 			(effects
 				(font
@@ -5643,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 31.75 68.58 0)
 			(effects
 				(font
@@ -5686,7 +5765,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PG1350_1")
 		(lib_id "weejock_keyboard_parts:PG1350")
 		(at 31.75 35.56 0)
 		(unit 1)
@@ -5712,7 +5790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -5868,7 +5946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -6112,7 +6190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 69.85 106.68 0)
 			(effects
 				(font
@@ -6314,6 +6392,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 190.5 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f19482-1110-4386-a4ab-eb0e9bd83a1e")
+		(property "Reference" "#FLG01"
+			(at 190.5 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3180296c-ab60-40f2-b608-5608bd2cd9be")
+		)
+		(instances
+			(project ""
+				(path "/c1ae838a-2b78-4867-b8ea-0c61b4d91b1b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 76.2 39.37 90)
 		(unit 1)
@@ -6402,6 +6546,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 124.46 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d410aa94-d6aa-402a-a8aa-f9bfd73b5e41")
+		(property "Reference" "#FLG02"
+			(at 124.46 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0406ffd-70de-43e3-8949-4daa23db3d51")
+		)
+		(instances
+			(project "weejock"
+				(path "/c1ae838a-2b78-4867-b8ea-0c61b4d91b1b"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "weejock_keyboard_parts:PG1350")
 		(at 69.85 92.71 0)
 		(unit 1)
@@ -6427,7 +6637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 69.85 87.63 0)
 			(effects
 				(font
@@ -6495,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 88.9 106.68 0)
 			(effects
 				(font
@@ -6563,7 +6773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 31.75 106.68 0)
 			(effects
 				(font
@@ -6631,7 +6841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 88.9 30.48 0)
 			(effects
 				(font
@@ -6699,7 +6909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 31.75 87.63 0)
 			(effects
 				(font
@@ -6855,7 +7065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Keyboard_Kailh:SW_Kailh_Choc_V1"
+		(property "Footprint" "weejock_library:SW_Kailh_Choc_V1"
 			(at 50.8 49.53 0)
 			(effects
 				(font
