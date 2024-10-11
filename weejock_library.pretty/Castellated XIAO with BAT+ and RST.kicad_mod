@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" ">NAME"
-		(at 0 2.54 0)
+		(at 0 5.54 0)
 		(layer "F.SilkS")
 		(uuid "899a999b-cb66-426d-b8f2-08c4e89ab50c")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" ">VALUE"
-		(at 0 5.08 0)
+		(at 0 8.08 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "9c46e766-45c2-42f7-bbc9-04af0b310b97")
@@ -27,7 +27,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2baaf140-fbb8-43f3-b178-f6cf1b9b01c2")
@@ -39,7 +39,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "fee7dea5-05dd-4b4f-b4fd-b7a8ce0793e0")
@@ -51,7 +51,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 3 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "667d65d4-471d-4cc1-a7ae-3cfbab8ba86e")
@@ -2854,7 +2854,7 @@
 		(uuid "677554f0-0fd3-4187-a765-9bf2dabe687c")
 	)
 	(fp_text user "XIAO"
-		(at 0 0.5 0)
+		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6cf78825-d5fd-4922-8304-aa4aa1d8834e")
@@ -2866,7 +2866,7 @@
 		)
 	)
 	(fp_text user "Seeed Studio"
-		(at 0 -1.5 0)
+		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c594f640-2dbf-40b0-9010-d0d25f874c28")
