@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Wee Jock Grid Pad")
-		(date "2024-10-10")
-		(rev "v0.0.2")
+		(date "2024-10-17")
+		(rev "v0.0.3")
 	)
 	(layers
 		(0 "F.Cu" signal)
