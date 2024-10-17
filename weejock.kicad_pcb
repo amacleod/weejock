@@ -2348,7 +2348,7 @@
 		)
 		(fp_arc
 			(start 6.9 -10.5)
-			(mid 8.301492 -9.901492)
+			(mid 8.301494 -9.901494)
 			(end 8.9 -8.5)
 			(stroke
 				(width 0.12)
@@ -16115,6 +16115,18 @@
 			(justify right mirror)
 		)
 	)
+	(gr_text "RST"
+		(at 85 53.5 0)
+		(layer "B.SilkS")
+		(uuid "4c933a92-0457-4126-9091-de795aea96f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "D9"
 		(at 98.5 61.9 0)
 		(layer "B.SilkS")
@@ -16259,6 +16271,18 @@
 			(justify left mirror)
 		)
 	)
+	(gr_text "BAT+"
+		(at 84.5 59.02 0)
+		(layer "B.SilkS")
+		(uuid "d34c2bde-f1e0-4c42-a34d-4d4f20da69d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right mirror)
+		)
+	)
 	(gr_text "D3"
 		(at 77.1 59.32 0)
 		(layer "F.SilkS")
@@ -16281,6 +16305,18 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 85 53.47 0)
+		(layer "F.SilkS")
+		(uuid "1433ec84-d52e-48ee-91aa-415d216c937c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right)
 		)
 	)
 	(gr_text "D5"
@@ -16476,6 +16512,18 @@
 			(justify left)
 		)
 	)
+	(gr_text "BAT+"
+		(at 84.5 59.02 0)
+		(layer "F.SilkS")
+		(uuid "c130f515-5938-4ead-a25c-cf9bbcc7f171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "D6"
 		(at 77.1 66.94 0)
 		(layer "F.SilkS")
@@ -16486,6 +16534,18 @@
 				(thickness 0.1)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "BAT-"
+		(at 84.5 57.1 0)
+		(layer "F.SilkS")
+		(uuid "deffc9ed-8b0f-4281-b84f-19119d8b5f51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "Wee Jock by A. MacLeod"
