@@ -16091,6 +16091,18 @@
 		(layer "Edge.Cuts")
 		(uuid "fa3a6775-3671-4af3-959e-05f10772f379")
 	)
+	(gr_text "Reset"
+		(at 89.4 75.4 90)
+		(layer "F.SilkS")
+		(uuid "05956c63-63c8-4bd0-ae7d-a2b067bb7351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "ON"
 		(at 75.6 81.3 0)
 		(layer "F.SilkS")
@@ -16098,7 +16110,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -16122,7 +16134,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
