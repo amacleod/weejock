@@ -2182,7 +2182,7 @@
 		(uuid "346b8d1c-2a0d-407d-ac12-410726cfa595")
 		(at 87.575 59.32)
 		(property "Reference" "U1"
-			(at 0 5.54 0)
+			(at 0 6.54 0)
 			(layer "F.SilkS")
 			(uuid "847f6a69-da28-4fc3-8de5-00adf3313b8a")
 			(effects
@@ -5035,7 +5035,7 @@
 			(uuid "6269ed77-c75d-4773-989b-c03176d26665")
 		)
 		(fp_text user "XIAO"
-			(at 0 3.5 0)
+			(at 0 4.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3535fce1-9809-4cab-9115-4134314ce8d8")
@@ -5047,7 +5047,7 @@
 			)
 		)
 		(fp_text user "Seeed Studio"
-			(at 0 1.5 0)
+			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f00855a1-7754-4287-9666-f8177851e93f")
@@ -16153,7 +16153,7 @@
 		)
 	)
 	(gr_text "Wee Jock by A. MacLeod"
-		(at 78.3 85.4 0)
+		(at 87.5 85.4 0)
 		(layer "F.SilkS")
 		(uuid "fe26c321-4ab1-4d3e-8f95-a3d4ef7bf2c1")
 		(effects
@@ -16161,7 +16161,7 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "-"
@@ -16173,6 +16173,18 @@
 				(size 1.5 1.5)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "(rev. 3)"
+		(at 79.3 83.9 0)
+		(layer "F.Mask")
+		(uuid "cb3afb15-644c-47a3-b8b8-63e7e4f70c59")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
