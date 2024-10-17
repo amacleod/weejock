@@ -17,7 +17,7 @@ other horizontally.
 Bill of Materials
 -----------------
 
-In addition to the Gerber file in [WeeJock-0-0-2-GERBER.zip](gerber/WeeJock-0-0-2-GERBER.zip), you will need:
+In addition to the Gerber file in [WeeJock-0-0-3-GERBER.zip](gerber/WeeJock-0-0-3-GERBER.zip), you will need:
  - 1 Seeed Studio XIAO BLE - [XIAO BLE nRF52840][xiaoble]
    - headers -OR- sockets and pins -OR- solder paste (see below)
  - 1 power switch - [PCM12][pcm12], [CUS-12TB][cus12tb], or equivalent
