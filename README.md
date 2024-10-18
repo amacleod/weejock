@@ -32,6 +32,14 @@ In principle, the power switch and JST connector are optional, but
 highly recommended for battery operation. If you intend to always use
 the keypad connected by USB, you could omit the battery entirely.
 
+> [!WARNING]
+> **Polarity Check**: Wee Jock revisions 1, 2, and 3 have the JST-PH
+> jack connected to match "Adafruit-style" battery connectors: the
+> positive (red) wire should be on the left when viewed from above.
+>
+> Not all batteries' connectors have the same polarity, so check
+> carefully before plugging one in!
+
 If you are hand-soldering, you will need headers for the controller,
 as well as pogo pins for the RST and BAT+ pins.
  - 2 seven-pin headers - [PH1-07-UA][ph107ua] (or you can cut longer headers down to size)
