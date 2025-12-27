@@ -24,9 +24,9 @@ jobs:
         # optional - prefix to output defined in config
         dir: gallery/
         # optional - schematic file
-        # schema: 'main.kicad_sch'
+        schema: 'weejock.kicad_sch'
         # optional - PCB design file
-        board: "pcbs/dust.kicad_pcb"
+        board: "weejock.kicad_pcb"
     - uses: actions/upload-artifact@main
       with:
         path: gallery/
@@ -40,7 +40,7 @@ jobs:
         with:
           path: gallery/
       - run: rm -rf images/*
-      - run: mv gallery/artifact/* images/
+      - run: mv gallery/artifact/* media/
       - uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
           commit_message: "Update gallery (automated)"
