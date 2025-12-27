@@ -14,6 +14,8 @@ other horizontally.
 
 ![wee jock schematic](weejock.svg "Wee Jock Schematic")
 
+![wee jock build photo](media/weejock_build_greenboard.jpg "Wee Jock Build")
+
 Bill of Materials
 -----------------
 
